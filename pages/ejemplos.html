@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebP, El Futuro</title>
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <h2 class="tituloHeader"><img src="../img/logoWebp.webp" alt="Logo de WebP">WebP</h2>
+        </a>
+        <button class="navbar-toggler hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLista"
+          aria-controls="navbarLista" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLista">
+          <ul class="navbar-nav menu">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/ventajas.html">Ventajas</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/desventajas.html">Desventajas</a></li>
+            <li class="nav-item active"><a class="nav-link" aria-current="page"
+                href="../pages/ejemplos.html">Ejemplos</a></li>
+            <li class="nav-item"><a class="nav-link" href="../pages/acercaDe.html">Historia</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container text-center">
+    <h1>Ejemplos de uso de WebP</h1>
+    <div id="carouselEjemplos" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h4>Comparacion con JPG</h4>
+          <div class="comparacion">
+            <img class="imagenIzq imagen" src="../img/test1.jpg" alt="Imagen en formato JPG">
+            <img class="imagenDer imagen" src="../img/test1.webp" alt="Imagen en formato WebP">
+            <p class="epigrafe">Foto por Kevin Phillips</p>
+            <h3 class="imagenIzqTitulo titulo">JPG</h3>
+            <h3 class="imagenDerTitulo titulo">WebP</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h4>Transparencia</h4>
+          <div class="transparencia">
+            <img class="estrella" src="../img/star.webp" alt="Imagen con transparencia">
+            <div class="cell-1-1"></div>
+            <div class="cell-1-2"></div>
+            <div class="cell-1-3"></div>
+            <div class="cell-2-1"></div>
+            <div class="cell-2-2"></div>
+            <div class="cell-2-3"></div>
+            <div class="cell-3-1"></div>
+            <div class="cell-3-2"></div>
+            <div class="cell-3-3"></div>
+            <div class="cell-4-1"></div>
+            <div class="cell-4-2"></div>
+            <div class="cell-4-3"></div>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <h4>Animaciones Con Transparencia</h4>
+          <div class="gridConejo">
+            <div class="rojo1"></div>
+            <div class="rojo2"></div>
+            <div class="rojo3"></div>
+            <div class="pasto"></div>
+            <div class="gris1"></div>
+            <div class="gris2"></div>
+            <div class="conejo">
+              <img src="../img/rabbit.webp" alt="Conejito Saltarin" id="conejo">
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselEjemplos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselEjemplos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+  <footer class="pie">
+    <h3>Documentación</h3>
+    <section class="pieBotones">
+      <a href="https://developers.google.com/speed/webp" target="_blank">
+        <img src="../img/googleGit.webp" alt="Logo de GoogleGit">
+      </a>
+      <a href="https://developers.google.com/speed/webp" target="_blank" title="Documentación de WebP"><img
+          src="../img/webpDocum.webp" alt="Logo de WebP"></a>
+      <a class="rfc" href="https://www.rfc-editor.org/rfc/rfc9649" target="_blank"
+        title="Entrada en el índice Request for Comments">RFC</a>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
